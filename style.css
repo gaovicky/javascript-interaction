@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Styling the overall website */
+body {
+  margin: 7vmin 13vmin 7vmin 13vmin;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+/* Styling the text with the same typeface */
+h1, #text, #fortune-button, #fortune-output {
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Styling the title */
+#title {
+  font-size: 3em;
+}
+
+/* Styling the text above the input box */
+#text {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* Styling the font size and size of the box and button */
+#fortune-input, #fortune-button{
+  font-size: 2em;
+  padding: .5em;
+}
+
+/* Styling the output text */
+#fortune-output {
+  font-size: 2em;
+  margin-top: .5em;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Spacing out the button and input box */
+#fortune-button, #fortune-input {
+  margin-top: 1em;
+}
+
+/* Styling the div */
+.fortuneGenerator {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling the "special" heading */
+.specialTitle {
+  font-style: oblique;
+  font-stretch: expanded;
+  font-weight: 900;
+}
